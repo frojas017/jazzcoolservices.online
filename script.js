@@ -1,5 +1,5 @@
 // TODO: PASTE YOUR GOOGLE APPS SCRIPT URL HERE
-const GOOGLE_APPS_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+const GOOGLE_APPS_SCRIPT_URL = https://script.google.com/macros/s/AKfycbxSKQhb8ekbah_yOadjUMsALvtRWafwMCNuKP--ZITqvrKlq_D5VuF3JpQ49bfCqyS7/exec;
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
