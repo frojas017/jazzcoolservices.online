@@ -3,57 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JazzCool Services - Taytay, Rizal</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>JazzCool Services - Premier HVAC</title>
+    <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
-
-    <header class="hero-section">
-        <div class="hero-overlay"></div>
-        <div class="navbar">
-            <img src="https://i.ibb.co/L5w2R72/Gemini-Generated-Image-gqcmgbgqcmgbgqcm.jpg" alt="JazzCool Services Logo" class="logo">
-            <h1 class="company-name">JazzCool Services</h1>
-        </div>
-        <div class="hero-content">
-            <h2>Your Premier HVAC Service in Taytay, Rizal</h2>
-            <p>Quality, Efficient, Reliable, and Top-Notch Service</p>
-            <a href="#contact-form-section" class="cta-button">Get a Free Quote</a>
-        </div>
+    
+    <header id="main-header">
+        <nav>
+            <div class="logo">JazzCool Services</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="cta-button">Get a Quote</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section id="contact-form-section" class="form-section">
-            <div class="form-container">
-                <h3>Request a Service</h3>
-                <p>Fill out the form below and we'll get back to you promptly.</p>
-                <form id="contact-form">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="location">Location</label>
-                    <input type="text" id="location" name="location" value="Taytay, Rizal" readonly>
-                    
-                    <label for="services">Services Needed</label>
-                    <textarea id="services" name="services" rows="4" required></textarea>
-
-                    <button type="submit">Submit Request</button>
-                    <div id="form-message" class="hidden"></div>
-                </form>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Your Premier HVAC Service in Taytay, Rizal</h1>
+                <p>Quality, Efficient, Reliable, and Top-Notch Service</p>
+                <a href="#contact" class="cta-button">Get a Free Quote</a>
             </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Core Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>AC Installation</h3>
+                    <p>Professional setup for maximum cooling efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Repair & Maintenance</h3>
+                    <p>Fast diagnostics and reliable repairs for all units.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Deep Cleaning</h3>
+                    <p>Thorough cleaning for better air quality and longevity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-image">
+                <img src="./images/hvac-tech.jpg" alt="HVAC Technician working">
+            </div>
+            <div class="about-content">
+                <h2>Why Choose JazzCool?</h2>
+                <p>We are a trusted, local service provider committed to delivering the best cooling solutions in Taytay. Our team is certified, experienced, and dedicated to customer satisfaction.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Ready for Top-Notch Service?</h2>
+            <form>
+                </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 JazzCool Services. All rights reserved.</p>
+        <div class="footer-grid">
+            <div class="footer-logo">JazzCool Services</div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Phone: (09XX) XXX XXXX</p>
+                <p>Email: info@jazzcoolservices.online</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 JazzCool Services. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
