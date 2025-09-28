@@ -38,7 +38,7 @@ Design & Development: Provided by Gemini.
 
 Business: JazzCool Services
 
-Domain: jazzcoolservices.online (GoDaddy)
+Domain: jazzcoolservice.online (GoDaddy)
 
 Logo & Hero Image: Supplied by frojas.
 
